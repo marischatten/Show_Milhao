@@ -84,8 +84,7 @@ public void output(int action) {
 				}while(read > 4 || read < 1 );
 				
 		}
-		input.close();		
-	 	return read;
+		return read;
 	}
 	
 
