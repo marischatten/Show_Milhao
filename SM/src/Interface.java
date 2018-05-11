@@ -16,35 +16,35 @@ public void output(int action) {
 				System.out.println("RESPOSTA ERRADA!");
 			break;
 			case 3:
-				System.out.println("VOCÊ PULOU ESTA QUESTÃO!");
+				System.out.println("VOCÃŠ PULOU ESTA QUESTÃƒO!");
 			break;
 			case 4:
-				System.out.println("VOCÊ DESISTIU DO JOGO");
+				System.out.println("VOCÃŠ DESISTIU DO JOGO");
 			break;
 			case 5:
-				System.out.println("VOCÊ NÃO PODE MAIS USAR ESTE RECURSO!");
+				System.out.println("VOCÃŠ NÃƒO PODE MAIS USAR ESTE RECURSO!");
 			break;
 			case 6:
 				System.out.println("**************************************************");
-				System.out.println("**\t\tVOCÊ VENCEU O JOGO!!\t\t**");
+				System.out.println("**\t\tVOCÃŠ VENCEU O JOGO!!\t\t**");
 				System.out.println("**************************************************");
 			break;
 			case 7: 
 				System.out.println("**********************************************************");
-				System.out.println("**\t\tFIM DE JOGO!VOCÊ PERDEU!\t\t**");
+				System.out.println("**\t\tFIM DE JOGO!VOCÃŠ PERDEU!\t\t**");
 				System.out.println("**********************************************************");
 			break;
 			case 8:
 				System.out.println("\t\t**************************************************");
 				System.out.println("\t\t**\t\t[1]Responder\t\t        **");  //1
-				System.out.println("\t\t**\t\t[2]Pular questão\t\t**"); //2
+				System.out.println("\t\t**\t\t[2]Pular questÃ£o\t\t**"); //2
 				System.out.println("\t\t**\t\t[3]Eliminar\t\t        **");  //3
 				System.out.println("\t\t**\t\t[4]Desisir do Jogo\t\t**"); //4
 				System.out.println("\t\t**************************************************");	
 			break;
 
 			default:
-				System.out.println("SUA PONTUAÇÃO FOI: "+action);
+				System.out.println("SUA PONTUAÃ‡ÃƒO FOI: "+action);
 		}
 	}
 
@@ -74,7 +74,7 @@ public void output(int action) {
 				
 		if(action==1) {
 			do {
-				System.out.println("Qual alternativa está correta?");	
+				System.out.println("Qual alternativa estÃ¡ correta?");	
 			 	read=input.nextInt();
 				}while(read > 4 || read < 1 );
 		}else {
@@ -84,7 +84,7 @@ public void output(int action) {
 				}while(read > 4 || read < 1 );
 				
 		}
-			
+		input.close();		
 	 	return read;
 	}
 	
