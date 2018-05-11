@@ -36,10 +36,10 @@ public void output(int action) {
 			break;
 			case 8:
 				System.out.println("\t\t**************************************************");
-				System.out.println("\t\t**\t\t[1]Responder\t\t        **");  //1
-				System.out.println("\t\t**\t\t[2]Pular questão\t\t**"); //2
-				System.out.println("\t\t**\t\t[3]Eliminar\t\t        **");  //3
-				System.out.println("\t\t**\t\t[4]Desisir do Jogo\t\t**"); //4
+				System.out.println("\t\t**\t\t[1]Responder\t\t        **");  
+				System.out.println("\t\t**\t\t[2]Pular questão\t\t**"); 
+				System.out.println("\t\t**\t\t[3]Eliminar\t\t        **");  
+				System.out.println("\t\t**\t\t[4]Desisir do Jogo\t\t**"); 
 				System.out.println("\t\t**************************************************");	
 			break;
 
