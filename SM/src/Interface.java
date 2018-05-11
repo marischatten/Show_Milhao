@@ -10,7 +10,7 @@ public void output(int action) {
 		
 		switch (action) {
 			case 1 :
-				System.out.println("PARABENS! RESPOSTA CORRETA\n\n\n\n");
+				System.out.println("PARABENS! RESPOSTA CORRETA!\n\n\n\n");
 				break;
 			case 2 :
 				System.out.println("RESPOSTA ERRADA!");
