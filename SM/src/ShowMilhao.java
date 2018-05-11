@@ -5,9 +5,6 @@ public class ShowMilhao{
 			QuestionBase qb = new QuestionBase();
 			Game play = new Game();
 			Player player =  new Player();
-			play.roundControl(qb,player);	
-			
+			play.roundControl(qb,player);			
 	}
-	
-	
 }
